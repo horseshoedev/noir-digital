@@ -1,0 +1,47 @@
+#Python#
+*.py[cod]
+*.pyc
+__pycache__/
+# dotenv environment variable files #
+#####################################
+.env.*
+!.env.example
+# Operating System Files #
+##########################
+.DS_Store
+Thumbs.db
+# Environment Files #
+#####################
+.env
+.env.local
+# IDE and Editor folders #
+##########################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+# Packages #
+############
+# it's better to unpack these files and commit the raw source because binaries can cause conflicts
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so

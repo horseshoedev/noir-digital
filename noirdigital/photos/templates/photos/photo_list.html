@@ -1,0 +1,31 @@
+<!-- photos/templates/photos/photo_list.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Noir Digital</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+    <h1>Noir Digital</h1>
+    </div>
+    <h3>Black and White Photos</h3>
+    <img src="{% static 'images/test.jpg' %}">
+    <img class="lazyload" src="{% static 'images/horses.jpg' %}">
+    <img class="lazyload" src="{% static 'images/girl.jpg' %}">
+    <img class="lazyload" src="{% static 'images/elephant.jpg' %}">
+
+    {% comment %} {% for photo in photos %}
+        <div>
+            <h2>{{ photo.title }}</h2>
+            <img class="lazy-load" src="{ static 'images' }" alt="{{ photo.title }}">
+            <p>{{ photo.description }}</p>
+            <br>
+        </div>
+    {% endfor %} {% endcomment %}
+
+<script> src="{% static 'js/lazyload.js' %}"</script>
+{% comment %} lazy load isnt working {% endcomment %}
+</body>
+</html>
