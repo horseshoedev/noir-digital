@@ -1,19 +1,23 @@
 /* Set the background color of the entire page */
 body {
-    background-color: rgb(2, 2, 87);
-    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    font-family:'Merriweather', serif, Arial, sans-serif;
     color: white;
 }
 
 /* Underline the title, assuming it's an <h1> element */
 h1 {
     text-decoration: underline;
+    color: #8b0000;
+    text-decoration-color: #8b0000;
+    align-self: center;
 }
 
 /* Image diminstion fit*/
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 /*center text*/
